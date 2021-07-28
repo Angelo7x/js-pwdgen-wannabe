@@ -9,4 +9,4 @@ var classe = prompt ("Inserisci la classe");
 /*insieme dati*/
 var all = firstname + surname + color + classe;
 /*Password finale*/
-document.getElementById("pass" ) .innerHTML = all;
+document.getElementById("pass" ) .innerHTML = "Ecco la tua password: " + all;
